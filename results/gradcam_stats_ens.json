@@ -1,0 +1,92 @@
+[
+ {
+  "cls": "none",
+  "n_correct": 1880,
+  "fail_lift": 1.11,
+  "boundary_lift": 1.09,
+  "cam_on_fail": 0.115,
+  "fail_area": 0.106,
+  "cam_on_boundary": 0.255,
+  "boundary_area": 0.239
+ },
+ {
+  "cls": "Center",
+  "n_correct": 815,
+  "fail_lift": 0.96,
+  "boundary_lift": 0.96,
+  "cam_on_fail": 0.229,
+  "fail_area": 0.236,
+  "cam_on_boundary": 0.351,
+  "boundary_area": 0.367
+ },
+ {
+  "cls": "Donut",
+  "n_correct": 105,
+  "fail_lift": 1.08,
+  "boundary_lift": 1.06,
+  "cam_on_fail": 0.3,
+  "fail_area": 0.289,
+  "cam_on_boundary": 0.399,
+  "boundary_area": 0.381
+ },
+ {
+  "cls": "Edge-Loc",
+  "n_correct": 983,
+  "fail_lift": 1.21,
+  "boundary_lift": 0.98,
+  "cam_on_fail": 0.235,
+  "fail_area": 0.186,
+  "cam_on_boundary": 0.298,
+  "boundary_area": 0.306
+ },
+ {
+  "cls": "Edge-Ring",
+  "n_correct": 1899,
+  "fail_lift": 1.0,
+  "boundary_lift": 1.01,
+  "cam_on_fail": 0.149,
+  "fail_area": 0.151,
+  "cam_on_boundary": 0.282,
+  "boundary_area": 0.282
+ },
+ {
+  "cls": "Loc",
+  "n_correct": 500,
+  "fail_lift": 1.35,
+  "boundary_lift": 1.22,
+  "cam_on_fail": 0.172,
+  "fail_area": 0.146,
+  "cam_on_boundary": 0.292,
+  "boundary_area": 0.262
+ },
+ {
+  "cls": "Random",
+  "n_correct": 164,
+  "fail_lift": 1.06,
+  "boundary_lift": 1.04,
+  "cam_on_fail": 0.512,
+  "fail_area": 0.486,
+  "cam_on_boundary": 0.689,
+  "boundary_area": 0.662
+ },
+ {
+  "cls": "Scratch",
+  "n_correct": 193,
+  "fail_lift": 1.26,
+  "boundary_lift": 1.18,
+  "cam_on_fail": 0.115,
+  "fail_area": 0.095,
+  "cam_on_boundary": 0.257,
+  "boundary_area": 0.224
+ },
+ {
+  "cls": "Near-full",
+  "n_correct": 28,
+  "fail_lift": 1.06,
+  "boundary_lift": 0.71,
+  "cam_on_fail": 0.936,
+  "fail_area": 0.887,
+  "cam_on_boundary": 0.198,
+  "boundary_area": 0.28
+ }
+]

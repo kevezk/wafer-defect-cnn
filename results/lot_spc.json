@@ -1,0 +1,340 @@
+{
+ "wafers": 811457,
+ "wafers_labeled": 172950,
+ "lots_total": 46293,
+ "lots_charted": 39987,
+ "pdbar": 0.0660221548341405,
+ "laney_sigma_z": 32.14949552677624,
+ "out_classic": 20096,
+ "out_laney": 1325,
+ "p_lots": 7418,
+ "pbar_label": 0.12345319291902788,
+ "out_p_label": 938,
+ "out_both": 180,
+ "shift": {
+  "labeled_true_patterned": 0.14755131540907776,
+  "labeled_pred_patterned": 0.18468921653657128,
+  "unlabeled_pred_patterned": 0.45174915858400927,
+  "unlabeled_pred_scratch": 0.23173747507858175,
+  "labeled_conf98": 0.6431801098583405,
+  "unlabeled_conf98": 0.20304084371823644,
+  "labeled_fail_median": 0.1056701030927835,
+  "unlabeled_fail_median": 0.05254648342764753
+ },
+ "tconf": 0.98,
+ "runs": [
+  {
+   "from": 3237,
+   "to": 3290,
+   "lots": 54,
+   "dominant": "Random",
+   "die_fail": 0.61
+  },
+  {
+   "from": 44663,
+   "to": 44694,
+   "lots": 32,
+   "dominant": "Random",
+   "die_fail": 0.275
+  },
+  {
+   "from": 44718,
+   "to": 44744,
+   "lots": 27,
+   "dominant": "Random",
+   "die_fail": 0.411
+  },
+  {
+   "from": 44698,
+   "to": 44716,
+   "lots": 19,
+   "dominant": "Random",
+   "die_fail": 0.445
+  },
+  {
+   "from": 22098,
+   "to": 22112,
+   "lots": 15,
+   "dominant": "판별 보류",
+   "die_fail": 0.673
+  }
+ ],
+ "dominant_counts": {
+  "Random": 330,
+  "Center": 318,
+  "판별 보류": 184,
+  "Edge-Loc": 174,
+  "Edge-Ring": 142,
+  "Near-full": 115,
+  "Donut": 34,
+  "Loc": 23,
+  "none": 5
+ },
+ "enrichment": {
+  "Center": {
+   "all": 0.252,
+   "abnormal": 0.247,
+   "ratio": 0.981
+  },
+  "Donut": {
+   "all": 0.014,
+   "abnormal": 0.026,
+   "ratio": 1.824
+  },
+  "Edge-Loc": {
+   "all": 0.232,
+   "abnormal": 0.112,
+   "ratio": 0.485
+  },
+  "Edge-Ring": {
+   "all": 0.275,
+   "abnormal": 0.165,
+   "ratio": 0.598
+  },
+  "Loc": {
+   "all": 0.078,
+   "abnormal": 0.028,
+   "ratio": 0.357
+  },
+  "Near-full": {
+   "all": 0.04,
+   "abnormal": 0.152,
+   "ratio": 3.842
+  },
+  "Random": {
+   "all": 0.086,
+   "abnormal": 0.268,
+   "ratio": 3.111
+  },
+  "Scratch": {
+   "all": 0.022,
+   "abnormal": 0.001,
+   "ratio": 0.037
+  }
+ },
+ "top10": [
+  {
+   "lot": "lot16650",
+   "lot_no": 16650,
+   "wafers": 25,
+   "die_fail": 0.826,
+   "ucl": 0.114,
+   "z": 47.1,
+   "dominant": "Near-full",
+   "dominant_n": 25,
+   "uncertain": 0,
+   "labeled": 0,
+   "cause": "공정 단계 누락, 장비 고장 등 치명적 이상"
+  },
+  {
+   "lot": "lot20280",
+   "lot_no": 20280,
+   "wafers": 25,
+   "die_fail": 0.826,
+   "ucl": 0.114,
+   "z": 47.1,
+   "dominant": "Near-full",
+   "dominant_n": 25,
+   "uncertain": 0,
+   "labeled": 0,
+   "cause": "공정 단계 누락, 장비 고장 등 치명적 이상"
+  },
+  {
+   "lot": "lot21570",
+   "lot_no": 21570,
+   "wafers": 25,
+   "die_fail": 0.826,
+   "ucl": 0.114,
+   "z": 47.1,
+   "dominant": "Near-full",
+   "dominant_n": 25,
+   "uncertain": 0,
+   "labeled": 0,
+   "cause": "공정 단계 누락, 장비 고장 등 치명적 이상"
+  },
+  {
+   "lot": "lot20283",
+   "lot_no": 20283,
+   "wafers": 25,
+   "die_fail": 0.826,
+   "ucl": 0.114,
+   "z": 47.1,
+   "dominant": "Near-full",
+   "dominant_n": 25,
+   "uncertain": 0,
+   "labeled": 0,
+   "cause": "공정 단계 누락, 장비 고장 등 치명적 이상"
+  },
+  {
+   "lot": "lot20284",
+   "lot_no": 20284,
+   "wafers": 25,
+   "die_fail": 0.826,
+   "ucl": 0.114,
+   "z": 47.1,
+   "dominant": "Near-full",
+   "dominant_n": 25,
+   "uncertain": 0,
+   "labeled": 0,
+   "cause": "공정 단계 누락, 장비 고장 등 치명적 이상"
+  },
+  {
+   "lot": "lot20282",
+   "lot_no": 20282,
+   "wafers": 25,
+   "die_fail": 0.826,
+   "ucl": 0.114,
+   "z": 47.1,
+   "dominant": "Near-full",
+   "dominant_n": 25,
+   "uncertain": 0,
+   "labeled": 0,
+   "cause": "공정 단계 누락, 장비 고장 등 치명적 이상"
+  },
+  {
+   "lot": "lot21575",
+   "lot_no": 21575,
+   "wafers": 25,
+   "die_fail": 0.826,
+   "ucl": 0.114,
+   "z": 47.1,
+   "dominant": "Near-full",
+   "dominant_n": 25,
+   "uncertain": 0,
+   "labeled": 0,
+   "cause": "공정 단계 누락, 장비 고장 등 치명적 이상"
+  },
+  {
+   "lot": "lot17476",
+   "lot_no": 17476,
+   "wafers": 25,
+   "die_fail": 0.826,
+   "ucl": 0.114,
+   "z": 47.1,
+   "dominant": "Near-full",
+   "dominant_n": 25,
+   "uncertain": 0,
+   "labeled": 0,
+   "cause": "공정 단계 누락, 장비 고장 등 치명적 이상"
+  },
+  {
+   "lot": "lot20994",
+   "lot_no": 20994,
+   "wafers": 25,
+   "die_fail": 0.825,
+   "ucl": 0.114,
+   "z": 47.1,
+   "dominant": "Near-full",
+   "dominant_n": 25,
+   "uncertain": 0,
+   "labeled": 0,
+   "cause": "공정 단계 누락, 장비 고장 등 치명적 이상"
+  },
+  {
+   "lot": "lot20991",
+   "lot_no": 20991,
+   "wafers": 25,
+   "die_fail": 0.825,
+   "ucl": 0.114,
+   "z": 47.1,
+   "dominant": "Near-full",
+   "dominant_n": 25,
+   "uncertain": 0,
+   "labeled": 0,
+   "cause": "공정 단계 누락, 장비 고장 등 치명적 이상"
+  }
+ ],
+ "by_pattern": [
+  {
+   "lot": "lot16650",
+   "lot_no": 16650,
+   "wafers": 25,
+   "die_fail": 0.826,
+   "ucl": 0.114,
+   "z": 47.1,
+   "dominant": "Near-full",
+   "dominant_n": 25,
+   "uncertain": 0,
+   "labeled": 0,
+   "cause": "공정 단계 누락, 장비 고장 등 치명적 이상"
+  },
+  {
+   "lot": "lot26217",
+   "lot_no": 26217,
+   "wafers": 25,
+   "die_fail": 0.77,
+   "ucl": 0.123,
+   "z": 36.8,
+   "dominant": "Loc",
+   "dominant_n": 25,
+   "uncertain": 0,
+   "labeled": 0,
+   "cause": "파티클 덩어리, 국부 결함, 레티클 결함"
+  },
+  {
+   "lot": "lot19862",
+   "lot_no": 19862,
+   "wafers": 25,
+   "die_fail": 0.587,
+   "ucl": 0.109,
+   "z": 36.7,
+   "dominant": "Random",
+   "dominant_n": 10,
+   "uncertain": 9,
+   "labeled": 2,
+   "cause": "파티클 오염, 장비·클린룸 오염"
+  },
+  {
+   "lot": "lot7747",
+   "lot_no": 7747,
+   "wafers": 25,
+   "die_fail": 0.633,
+   "ucl": 0.152,
+   "z": 19.9,
+   "dominant": "Donut",
+   "dominant_n": 25,
+   "uncertain": 0,
+   "labeled": 11,
+   "cause": "열처리·챔버 온도 분포, 증착 두께 편차"
+  },
+  {
+   "lot": "lot15316",
+   "lot_no": 15316,
+   "wafers": 9,
+   "die_fail": 0.351,
+   "ucl": 0.119,
+   "z": 16.0,
+   "dominant": "Edge-Ring",
+   "dominant_n": 7,
+   "uncertain": 0,
+   "labeled": 0,
+   "cause": "스핀 코팅 가장자리, edge bead 제거, 식각 가장자리 마진"
+  },
+  {
+   "lot": "lot2615",
+   "lot_no": 2615,
+   "wafers": 25,
+   "die_fail": 0.699,
+   "ucl": 0.201,
+   "z": 14.0,
+   "dominant": "Edge-Loc",
+   "dominant_n": 9,
+   "uncertain": 9,
+   "labeled": 0,
+   "cause": "웨이퍼 핸들링·클램프 접촉, 가장자리 국부 오염"
+  },
+  {
+   "lot": "lot16072",
+   "lot_no": 16072,
+   "wafers": 25,
+   "die_fail": 0.499,
+   "ucl": 0.184,
+   "z": 11.0,
+   "dominant": "Center",
+   "dominant_n": 11,
+   "uncertain": 11,
+   "labeled": 12,
+   "cause": "증착·식각 균일도, CMP 중앙부 압력"
+  }
+ ]
+}
